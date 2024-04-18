@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section.hero {
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section.features {
+    padding: 50px 0;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature-item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature-item i {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.background-form {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.background-form h2 {
+    margin-bottom: 20px;
+}
+
+.background-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-form label {
+    margin-right: 10px;
+}
+
+.background-form input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.background-form button {
+    padding: 8px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.background-form button:hover {
+    background-color: #ffd633;
+}
+
+.booking {
+    background: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.booking h2 {
+    margin-bottom: 20px;
+}
+
+.booking form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.booking .form-group {
+    margin: 0 20px;
+}
+
+.booking label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.booking input[type="date"],
+.booking input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom

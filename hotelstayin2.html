@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Homepage</title>
+    <link rel="stylesheet" href="hotelstayin2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>HOTELSTAYIN</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="booking">
+        <div class="container">
+            <h2>Check Availability</h2>
+            <form>
+                <div class="form-group">
+                    <label for="checkIn">Check-in Date:</label>
+                    <input type="date" id="checkIn" name="checkIn" required>
+                </div>
+                <div class="form-group">
+                    <label for="checkOut">Check-out Date:</label>
+                    <input type="date" id="checkOut" name="checkOut" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">Destination City:</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <button type="submit">Check Availability</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="hero" style="background-image: url('123.jpeg')">
+        <div class="container">
+            <h2>Experience Luxury and Comfort</h2>
+            <p>Book your stay now and enjoy an unforgettable experience.</p>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="feature-item">
+                <i class="fas fa-wifi"></i>
+                <h3>Free Wi-Fi</h3>
+                <p>Stay connected with high-speed internet.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-utensils"></i>
+                <h3>Restaurant</h3>
+                <p>Enjoy delicious meals at our restaurant.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-swimming-pool"></i>
+                <h3>Pool</h3>
+                <p>Relax and unwind by our swimming pool.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="background-form">
+        <div class="container">
+            <h2>Change Background Image</h2>
+            <form id="backgroundForm">
+                <label for="backgroundImage">Enter Image URL:</label>
+                <input type="text" id="backgroundImage" name="backgroundImage" required>
+                <button type="submit">Change Background</button>
+            </form>
+        </div>
+    </section>
+
+    
+
+    <section class="city-reference">
+        <div class="container">
+            <h2>Explore the City</h2>
+            <p>Discover the wonders of our destination city. From attractions to dining, there's something for everyone.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 hotelstayin. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
